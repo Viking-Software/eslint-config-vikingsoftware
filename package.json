@@ -1,0 +1,33 @@
+{
+  "name": "eslint-plugin-vikingsoftware",
+  "version": "1.0.2",
+  "description": "Viking Software's Standard Rules for ESLint",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viking-Software/eslint-std.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "vikingsoftware",
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Viking Software",
+  "bugs": {
+    "url": "https://github.com/Viking-Software/eslint-std/issues"
+  },
+  "homepage": "https://github.com/Viking-Software/eslint-std#readme",
+  "peerDependencies": {
+    "eslint": "^7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-jsdoc": "^30.0.3"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
