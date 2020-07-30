@@ -1,28 +1,4 @@
 module.exports = {
-    "env": {
-        "es2020": true,
-        "mocha": true,
-        "node": true
-    },
-
-    "extends": [
-        "eslint:recommended",
-        "plugin:jsdoc/recommended"
-    ],
-
-    "parser": "babel-eslint",
-
-    "parserOptions": {
-        "ecmaVersion": 11,
-        "ecmaFeatures": {
-            "impliedStrict": true
-        },
-        "sourceType": "module"
-    },
-
-    "plugins": [
-        "jsdoc"
-    ],
 
     "rules": {
         // Possible Errors
