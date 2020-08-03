@@ -117,7 +117,6 @@ module.exports = {
         "no-tabs": "error",
         "no-trailing-spaces": "warn",
         "no-underscore-dangle": ["error", {
-            "allow": false,
             "allowAfterThis": true
         }],
         "no-unneeded-ternary": "error",
