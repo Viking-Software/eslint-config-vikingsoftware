@@ -154,7 +154,7 @@ module.exports = {
         "arrow-spacing": ["error", { "before": true, "after": true }],
         "generator-star-spacing": ["error", { "before": false, "after": true }],
         "no-useless-rename": "warn",
-        "eslint:recommended/no-var": "error",
+        "no-var": "error",
         "object-shorthand": ["error", "never"],
         "prefer-arrow-callback": "error",
         "prefer-const": "error",
