@@ -116,7 +116,10 @@ module.exports = {
         "no-nested-ternary": "warn",
         "no-tabs": "error",
         "no-trailing-spaces": "warn",
-        "no-underscore-dangle": "error",
+        "no-underscore-dangle": ["error", {
+            "allow": false,
+            "allowAfterThis": true
+        }],
         "no-unneeded-ternary": "error",
         "no-whitespace-before-property": "warn",
         "object-curly-newline": ["error", { "consistent": true }],
