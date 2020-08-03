@@ -1,5 +1,12 @@
 module.exports = {
     configs: {
+        
+        env: {
+            "es2020": true,
+            "mocha": true,
+            "node": true
+        },
+
         extends: [
             "eslint:recommended",
             "plugin:jsdoc/recommended"
