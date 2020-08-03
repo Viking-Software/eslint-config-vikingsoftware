@@ -126,7 +126,7 @@ module.exports = {
         //"prefer-exponentiation-operator": "error", // Requires ES2016
         //"prefer-object-spread": "error", // Requires ES2018
         "quote-props": ["error", "as-needed"],
-        "quotes": ["error", "single"], // Need to revisit this
+        "quotes": ["error", "backtick"], // Need to revisit this
         "require-jsdoc": ["error", {
             "require": {
                 "FunctionDeclaration": true,
@@ -163,7 +163,7 @@ module.exports = {
         "prefer-template": "error",
         "rest-spread-spacing": ["error", "never"],
         "symbol-description": "error",
-        "template-curly-spacing": ["error", "always"], // Need to revisit this
+        "template-curly-spacing": ["error", "never"], // Need to revisit this
         "yield-star-spacing": ["error", "after"]
     }
 };
