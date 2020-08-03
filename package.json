@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vikingsoftware",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Viking Software's Standard Rules for ESLint",
   "main": "index.js",
   "repository": {
@@ -19,7 +19,7 @@
     "url": "https://github.com/Viking-Software/eslint-config-vikingsoftware/issues"
   },
   "homepage": "https://github.com/Viking-Software/eslint-config-vikingsoftware",
-  "dependencies": {
+  "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.4.0",
     "eslint-plugin-jsdoc": "^30.0.3"
