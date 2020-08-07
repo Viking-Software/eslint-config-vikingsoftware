@@ -49,7 +49,6 @@ module.exports = {
         "no-implicit-globals": "error",
         "no-invalid-this": "error",
         "no-lone-blocks": "error",
-        "no-magic-numbers": ["warn", { "ignore": [0] }],
         "no-multi-spaces": ["warn", { "ignoreEOLComments": true }],
         "no-return-assign": ["warn", "always"],
         "no-return-await": "warn",
