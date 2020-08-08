@@ -70,7 +70,6 @@ module.exports = {
 
         // Sylistic Issues
         "array-bracket-newline": ["error", { "multiline": true }],
-        "array-bracket-spacing": ["never", "always"],
         "array-element-newline": ["error", "consistent"],
         "block-spacing": ["error", "always"],
         "brace-style": ["error", "1tbs"],
