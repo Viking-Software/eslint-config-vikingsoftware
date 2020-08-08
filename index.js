@@ -26,7 +26,7 @@ module.exports = {
 
     rules: {
         // Possible Errors
-        "no-await-in-loop": "warn",
+        "no-await-in-loop": "error",
         "no-control-regex": "off",
         "no-promise-executor-return": "error",
         "no-template-curly-in-string": "error",
@@ -49,9 +49,9 @@ module.exports = {
         "no-implicit-globals": "error",
         "no-invalid-this": "error",
         "no-lone-blocks": "error",
-        "no-multi-spaces": ["warn", { "ignoreEOLComments": true }],
-        "no-return-assign": ["warn", "always"],
-        "no-return-await": "warn",
+        "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
+        "no-return-assign": ["error", "always"],
+        "no-return-await": "error",
         "no-self-assign": "error",
         "no-self-compare": "error",
         "no-throw-literal": "error",
@@ -65,8 +65,8 @@ module.exports = {
         // parserOptions.ecmaFeatures.impliedStrict
 
         // Variables
-        "no-shadow": "warn",
-        "no-unused-vars": "warn",
+        "no-shadow": "error",
+        "no-unused-vars": "error",
 
         // Sylistic Issues
         "array-bracket-newline": ["error", { "multiline": true }],
@@ -112,11 +112,11 @@ module.exports = {
         "no-lonely-if": "error",
         "no-multi-assign": "error",
         "no-multiple-empty-lines": "error",
-        "no-nested-ternary": "warn",
+        "no-nested-ternary": "error",
         "no-tabs": "error",
-        "no-trailing-spaces": "warn",
+        "no-trailing-spaces": "error",
         "no-unneeded-ternary": "error",
-        "no-whitespace-before-property": "warn",
+        "no-whitespace-before-property": "error",
         "object-curly-newline": ["error", { "consistent": true }],
         "object-curly-spacing": ["error", "always"],
         "one-var": ["error", "never"],
@@ -156,12 +156,12 @@ module.exports = {
         "arrow-parens": ["error", "as-needed"],
         "arrow-spacing": ["error", { "before": true, "after": true }],
         "generator-star-spacing": ["error", { "before": false, "after": true }],
-        "no-useless-rename": "warn",
+        "no-useless-rename": "error",
         "no-var": "error",
         "object-shorthand": ["error", "never"],
         "prefer-arrow-callback": "error",
         "prefer-const": "error",
-        "prefer-destructuring": "warn",
+        "prefer-destructuring": "error",
         "prefer-spread": "error",
         "prefer-template": "error",
         "rest-spread-spacing": ["error", "never"],
