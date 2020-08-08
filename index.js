@@ -160,7 +160,7 @@ module.exports = {
         "no-var": "error",
         "object-shorthand": ["error", "never"],
         "prefer-arrow-callback": "error",
-        "prefer-const": "error",
+        "prefer-const": ["error", { "destructuring": "all" }],
         "prefer-destructuring": "error",
         "prefer-spread": "error",
         "prefer-template": "error",
