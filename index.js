@@ -73,7 +73,6 @@ module.exports = {
         "array-element-newline": ["error", "consistent"],
         "block-spacing": ["error", "always"],
         "brace-style": ["error", "1tbs"],
-        "camelcase": "error",
         "comma-dangle": ["error", "never"],
         "comma-spacing": ["error", { "before": false, "after": true }],
         "comma-style": ["error", "last"],
