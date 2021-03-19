@@ -8,7 +8,7 @@ module.exports = {
         'plugin:react/recommended',
         'plugin:import/errors',
         'plugin:import/warnings',
-        'plugin: jsx-a11y/recommended',
+        'plugin:jsx-a11y/recommended',
         'plugin:react-hooks/recommended',
         'airbnb'
     ],
