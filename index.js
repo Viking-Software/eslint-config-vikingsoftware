@@ -41,7 +41,7 @@ module.exports = {
         // React
         'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
         'react/react-in-jsx-scope': 'off',
-        'react/jsx-indent': [4, 4],
+        'react/jsx-indent': ['warn', 4],
 
         // Possible Errors
         'no-await-in-loop': 'error',
