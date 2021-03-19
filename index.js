@@ -16,10 +16,7 @@ module.exports = {
     },
 
     parserOptions: {
-        // "ecmaVersion": 11,
-        // "ecmaFeatures": {
-        //     "impliedStrict": true
-        // },
+        "ecmaVersion": 2020,
         "sourceType": "module"
     },
 
