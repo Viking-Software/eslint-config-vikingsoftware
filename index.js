@@ -41,6 +41,7 @@ module.exports = {
         // React
         'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
         'react/react-in-jsx-scope': 'off',
+        'react/jsx-indent': [4, 4],
 
         // Possible Errors
         'no-await-in-loop': 'error',
@@ -94,7 +95,7 @@ module.exports = {
         'comma-spacing': ['error', { 'before': false, 'after': true }],
         'comma-style': ['error', 'last'],
         'computed-property-spacing': ['error', 'never'],
-        'eol-last': ['error', 'never'],
+        'eol-last': ['warn', 'never'],
         'func-call-spacing': ['error', 'never'],
         'function-call-argument-newline': ['error', 'consistent'],
         'function-paren-newline': ['error', 'consistent'],
@@ -111,6 +112,7 @@ module.exports = {
             'flatTernaryExpressions': false,
             'offsetTernaryExpressions': true
         }],
+        'jsx-quotes': ['warn', 'prefer-single'],
         'key-spacing': ['error', { 'beforeColon': false, 'afterColon': true }],
         'keyword-spacing': ['error', {
             'overrides': {
