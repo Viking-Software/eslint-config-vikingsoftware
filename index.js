@@ -40,7 +40,8 @@ module.exports = {
 
     rules: {
         // React
-        // "react/react-in-jsx-scope": "true",
+        "react/react-in-jsx-scope": "false",
+        "react/jsx-filename-extension": "false",
 
         // Possible Errors
         "no-await-in-loop": "error",
@@ -137,10 +138,10 @@ module.exports = {
         "one-var": ["error", "never"],
         "operator-assignment": ["error", "always"],
         "padded-blocks": ["error", { "classes": "always" }],
-        //"prefer-exponentiation-operator": "error", // Requires ES2016
-        //"prefer-object-spread": "error", // Requires ES2018
+        "prefer-exponentiation-operator": "error",
+        "prefer-object-spread": "error",
         "quote-props": ["error", "as-needed"],
-        "quotes": ["error", "backtick"], // Need to revisit this
+        "quotes": ["warning", "single"],
         "require-jsdoc": ["error", {
             "require": {
                 "FunctionDeclaration": true,
@@ -150,7 +151,7 @@ module.exports = {
                 "FunctionExpression": false
             }
         }],
-        "semi": ["error", "always"],
+        "semi": ["warn", "never"],
         "semi-spacing": ["error", { "before": false, "after": true }],
         "semi-style": ["error", "last"],
         "space-before-blocks": "error",
@@ -167,7 +168,7 @@ module.exports = {
         "template-tag-spacing": ["error", "never"],
 
         // ECMAScript 6
-        "arrow-body-style": ["error", "as-needed"],
+        "arrow-body-style": ["warn", "always"],
         "arrow-parens": ["error", "as-needed"],
         "arrow-spacing": ["error", { "before": true, "after": true }],
         "generator-star-spacing": ["error", { "before": false, "after": true }],
