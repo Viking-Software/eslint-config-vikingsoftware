@@ -1,8 +1,6 @@
 module.exports = {
     root: true,
 
-    parser: 'eslint-parser',
-
     extends: [
         'eslint:recommended',
         'plugin:react/recommended',
@@ -25,7 +23,8 @@ module.exports = {
         sourceType: 'module',
         ecmaFeatures: {
             jsx: true
-        }
+        },
+        parser: 'eslint'
     },
 
     settings: {
