@@ -11,7 +11,7 @@ module.exports = {
         "plugin:react/recommended"
     ],
 
-    global: {
+    globals: {
         "React": "writable"
     },
 
