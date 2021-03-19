@@ -40,7 +40,6 @@ module.exports = {
 
     rules: {
         // React
-        "react/react-in-jsx-scope": "false",
         "react/jsx-filename-extension": [1, { "allow": "as-needed" }],
 
         // Possible Errors
