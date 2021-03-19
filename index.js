@@ -15,15 +15,13 @@ module.exports = {
         "React": "writable"
     },
 
-    // parser: "babel-eslint",
-
-    // parserOptions: {
-    //     "ecmaVersion": 11,
-    //     "ecmaFeatures": {
-    //         "impliedStrict": true
-    //     },
-    //     "sourceType": "module"
-    // },
+    parserOptions: {
+        // "ecmaVersion": 11,
+        // "ecmaFeatures": {
+        //     "impliedStrict": true
+        // },
+        "sourceType": "module"
+    },
 
     // plugins: [
     //     "jsdoc"
