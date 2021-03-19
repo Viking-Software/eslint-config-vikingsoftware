@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-vikingsoftware",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Viking Software's Standard Rules for ESLint",
     "main": "index.js",
     "repository": {
@@ -28,5 +28,8 @@
         "babel-eslint": "^10.1.0",
         "eslint": "^7.4.0",
         "eslint-plugin-jsdoc": "^30.0.3"
+    },
+    "devDependencies": {
+        "eslint-plugin-react": "^7.22.0"
     }
 }
