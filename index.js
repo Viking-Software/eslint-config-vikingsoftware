@@ -1,32 +1,46 @@
 module.exports = {
-    // env: {
-    //     "es2020": true,
-    //     "mocha": true,
-    //     "node": true
-    // },
+    root: true,
+
+    parser: 'babel-eslint',
 
     extends: [
-        "eslint:recommended",
-        // "plugin:jsdoc/recommended"
-        "plugin:react/recommended"
+        'eslint:recommended',
+        'plugin:react/recommended',
+        'plugin:import/errors',
+        'plugin:import/warnings',
+        'plugin: jsx-a11y/recommended',
+        'plugin:react-hooks/recommended',
+        'airbnb'
     ],
 
-    globals: {
-        "React": "writable"
+    env: {
+        browser: true,
+        commonjs: true,
+        es6: true,
+        node: true
     },
 
     parserOptions: {
-        "ecmaVersion": 2020,
-        "sourceType": "module"
+        ecmaVersion: 2018,
+        sourceType: 'module',
+        ecmaFeatures: {
+            jsx: true
+        }
     },
 
-    // plugins: [
-    //     "jsdoc"
-    // ],
+    settings: {
+        react: {
+            version: 'detect'
+        }
+    },
+
+    // globals: {
+    //     "React": "writable"
+    // },
 
     rules: {
         // React
-        "react/react-in-jsx-scope": "off",
+        // "react/react-in-jsx-scope": "true",
 
         // Possible Errors
         "no-await-in-loop": "error",
