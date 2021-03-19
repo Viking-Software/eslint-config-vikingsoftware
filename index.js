@@ -1,7 +1,7 @@
 module.exports = {
     root: true,
 
-    parser: 'babel-eslint',
+    parser: 'eslint-parser',
 
     extends: [
         'eslint:recommended',
