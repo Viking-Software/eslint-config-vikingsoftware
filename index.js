@@ -140,7 +140,7 @@ module.exports = {
         "prefer-exponentiation-operator": "error",
         "prefer-object-spread": "error",
         "quote-props": ["error", "as-needed"],
-        "quotes": ["warning", "single"],
+        "quotes": ["warn", "single"],
         "require-jsdoc": ["error", {
             "require": {
                 "FunctionDeclaration": true,
