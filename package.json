@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-vikingsoftware",
-    "version": "1.1.13",
+    "version": "1.1.15",
     "description": "Viking Software's Standard Rules for ESLint",
     "main": "index.js",
     "repository": {
@@ -20,7 +20,7 @@
     },
     "homepage": "https://github.com/Viking-Software/eslint-config-vikingsoftware",
     "dependencies": {
-        "babel-eslint": "^10.1.0",
+        "@babel/eslint-parser": "^7.13.10",
         "eslint": "^7.22.0",
         "eslint-config-airbnb": "^18.2.1",
         "eslint-plugin-import": "^2.22.1",
