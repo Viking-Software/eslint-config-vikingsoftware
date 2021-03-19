@@ -1,30 +1,38 @@
 module.exports = {
-    env: {
-        "es2020": true,
-        "mocha": true,
-        "node": true
-    },
+    // env: {
+    //     "es2020": true,
+    //     "mocha": true,
+    //     "node": true
+    // },
 
     extends: [
         "eslint:recommended",
-        "plugin:jsdoc/recommended"
+        // "plugin:jsdoc/recommended"
+        "plugin:react/recommended"
     ],
 
-    parser: "babel-eslint",
-
-    parserOptions: {
-        "ecmaVersion": 11,
-        "ecmaFeatures": {
-            "impliedStrict": true
-        },
-        "sourceType": "module"
+    global: {
+        "React": "writable"
     },
 
-    plugins: [
-        "jsdoc"
-    ],
+    // parser: "babel-eslint",
+
+    // parserOptions: {
+    //     "ecmaVersion": 11,
+    //     "ecmaFeatures": {
+    //         "impliedStrict": true
+    //     },
+    //     "sourceType": "module"
+    // },
+
+    // plugins: [
+    //     "jsdoc"
+    // ],
 
     rules: {
+        // React
+        "react/react-in-jsx-scope": "off",
+
         // Possible Errors
         "no-await-in-loop": "error",
         "no-control-regex": "off",
