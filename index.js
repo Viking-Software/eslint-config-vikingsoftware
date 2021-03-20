@@ -45,6 +45,10 @@ module.exports = {
         'react/jsx-indent': ['warn', 4],
         'react/jsx-props-no-spreading': 'off',
         'react/prop-types': 'off',
+        'react/no-unescaped-entities': 'off',
+
+        // JSX
+        'jsx-a11y/anchor-is-valid': 'off',
 
         // Possible Errors
         'no-await-in-loop': 'error',
@@ -98,7 +102,6 @@ module.exports = {
         'comma-spacing': ['error', { 'before': false, 'after': true }],
         'comma-style': ['error', 'last'],
         'computed-property-spacing': ['error', 'never'],
-        'eol-last': ['warn', 'never'],
         'func-call-spacing': ['error', 'never'],
         'function-call-argument-newline': ['error', 'consistent'],
         'function-paren-newline': ['error', 'consistent'],
