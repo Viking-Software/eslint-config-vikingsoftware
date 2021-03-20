@@ -15,11 +15,12 @@ module.exports = {
         browser: true,
         commonjs: true,
         es6: true,
-        node: true
+        node: true,
+        jest: true
     },
 
     parserOptions: {
-        ecmaVersion: 2018,
+        ecmaVersion: 2020,
         sourceType: 'module',
         ecmaFeatures: {
             jsx: true
@@ -33,15 +34,17 @@ module.exports = {
         }
     },
 
-    // globals: {
-    //     'React': 'writable'
-    // },
+    globals: {
+        React: 'writable'
+    },
 
     rules: {
         // React
         'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
         'react/react-in-jsx-scope': 'off',
         'react/jsx-indent': ['warn', 4],
+        'react/jsx-props-no-spreading': 'off',
+        'react/prop-types': 'off',
 
         // Possible Errors
         'no-await-in-loop': 'error',
@@ -143,15 +146,6 @@ module.exports = {
         'prefer-object-spread': 'error',
         'quote-props': ['error', 'as-needed'],
         'quotes': ['warn', 'single'],
-        'require-jsdoc': ['error', {
-            'require': {
-                'FunctionDeclaration': true,
-                'MethodDefinition': true,
-                'ClassDeclaration': true,
-                'ArrowFunctionExpression': false,
-                'FunctionExpression': false
-            }
-        }],
         'semi': ['warn', 'never'],
         'semi-spacing': ['error', { 'before': false, 'after': true }],
         'semi-style': ['error', 'last'],
